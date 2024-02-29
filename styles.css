@@ -1,0 +1,84 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation menu styling */
+nav {
+    background-color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+   	text-decoration: underline;
+	font-weight: bold;
+	color: #000;
+}
+
+/* Header styling */
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Page content styling */
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Home page specific styling */
+.home .logo {
+    width: 400px; /* Adjust as needed */
+}
+
+/* Other pages specific styling */
+/* Header styling */
+header {
+    background-color: #000;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-content .logo {
+    width: 100px; /* Adjust as needed */
+    margin-right: 20px;
+}
+
+.header-content h1 {
+    color: #fff;
+}
+/* Example CSS for styling the video player */
+video {
+    border: 2px solid #fff; /* Add a border around the video */
+    border-radius: 10px; /* Add border radius */
+}
+
+/* Customize video player controls */
+video::-webkit-media-controls {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust control bar background color */
+    color: #fff; /* Adjust control button color */
+}

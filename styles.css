@@ -28,9 +28,9 @@ nav ul li {
 }
 
 nav ul li a {
-   	text-decoration: underline;
-	font-weight: bold;
-	color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #000;
 }
 
 /* Header styling */
@@ -48,7 +48,8 @@ header {
 
 /* Home page specific styling */
 .home .logo {
-    width: 400px; /* Adjust as needed */
+    width: 400px;
+    /* Adjust as needed */
 }
 
 /* Other pages specific styling */
@@ -64,21 +65,33 @@ header {
 }
 
 .header-content .logo {
-    width: 100px; /* Adjust as needed */
+    width: 100px;
+    /* Adjust as needed */
     margin-right: 20px;
 }
 
 .header-content h1 {
     color: #fff;
 }
+
 /* Example CSS for styling the video player */
 video {
-    border: 2px solid #fff; /* Add a border around the video */
-    border-radius: 10px; /* Add border radius */
+    border: 2px solid #fff;
+    /* Add a border around the video */
+    border-radius: 10px;
+    /* Add border radius */
 }
 
 /* Customize video player controls */
 video::-webkit-media-controls {
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust control bar background color */
-    color: #fff; /* Adjust control button color */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust control bar background color */
+    color: #fff;
+    /* Adjust control button color */
+}
+
+/* making video responsive */
+video {
+    width: 100%;
+    height: auto;
 }
